@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Skiller: Tutor App</string>
+    <string name="title_lessons">Lessons</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_courses">Courses</string>
+    <string name="title_more">More</string>
+
+    <string name="no_string"> - </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Facebook Login -->
+    <string name="facebook_application_id" translatable="false">583487135440765</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb583487135440765</string>
+    <string name="course_title">Course Title</string>
+    <string name="num_sessions">Number of Sessions</string>
+    <string name="num_of_hours_per_session">Hours Per Session</string>
+    <string name="course_price">Price</string>
+    <string name="save">Save</string>
+
+</resources>

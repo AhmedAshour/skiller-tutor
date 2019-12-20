@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.courses.CourseNewActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/activity_course_new_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/HeaderStyle"
+            android:text="course" />
+
+        <ImageButton
+            android:id="@+id/activity_course_new_img_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_small"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_navigation_white_prev" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/activity_course_new_btn_create"
+        android:layout_below="@+id/activity_course_new_header">
+
+        <include layout="@layout/scrolling_content_activity_course_new" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/activity_course_new_btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_extra_large"
+        android:background="@drawable/rounded_corners_small_red"
+        android:onClick="createCourse"
+        android:text="@string/save"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_extra_large" />
+
+</RelativeLayout>

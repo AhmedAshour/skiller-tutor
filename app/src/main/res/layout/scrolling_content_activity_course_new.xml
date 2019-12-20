@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrolling_content_activity_new_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/margin_extra_large"
+    android:paddingStart="@dimen/margin_extra_large"
+    android:paddingTop="@dimen/margin_extra_large">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_title"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_new_course_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Description"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/activity_course_new_et_course_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textMultiLine|textCapSentences" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/num_sessions"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_new_course_num_sessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:maxLength="2" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/num_of_hours_per_session"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_new_course_num_hours_per_session"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:maxLength="1" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Skill"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_new_course_skill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/activity_course_new_et_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/no_size"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:hint="From Date"
+            app:errorEnabled="true">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/activity_course_new_et_date_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/no_size"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:hint="To Date"
+            app:errorEnabled="true">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/activity_course_new_et_date_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/no_size"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:hint="From Time"
+            app:errorEnabled="true">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/activity_course_new_et_time_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/no_size"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:hint="To Time"
+            app:errorEnabled="true">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/activity_course_new_et_time_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_price"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_new_course_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:maxLength="6" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Notes"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/activity_course_new_et_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textMultiLine|textCapSentences" />
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

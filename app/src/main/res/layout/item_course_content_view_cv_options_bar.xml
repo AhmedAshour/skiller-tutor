@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_course_content_view_cv_options_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/item_secondary_bar_btn_edit"
+        android:layout_width="@dimen/no_size"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners_small_cyan"
+        android:text="edit"
+        android:textAllCaps="true"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_large" />
+
+    <Button
+        android:id="@+id/item_secondary_bar_btn_delete"
+        android:layout_width="@dimen/no_size"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners_small_red"
+        android:text="delete"
+        android:textAllCaps="true"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>

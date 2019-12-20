@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_lesson_content_view_acceptance"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/item_lesson_content_view_acceptance_btn_accept"
+        android:layout_width="@dimen/no_size"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners_small_green"
+        android:text="accept"
+        android:textAllCaps="true"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_large" />
+
+    <Button
+        android:id="@+id/item_lesson_content_view_acceptance_btn_deny"
+        android:layout_width="@dimen/no_size"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners_small_red"
+        android:text="deny"
+        android:textAllCaps="true"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>

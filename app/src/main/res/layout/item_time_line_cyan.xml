@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_time_line_cyan"
+    android:layout_width="10dp"
+    android:layout_height="match_parent"
+    android:layout_marginStart="8dp"
+    android:minHeight="50dp">
+
+    <View
+        android:id="@+id/item_time_line_cyan_start_date_dot"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circle_cyan" />
+
+    <View
+        android:id="@+id/item_time_line_cyan_date_line"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_above="@id/item_time_line_cyan_end_date_dot"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/item_time_line_cyan_start_date_dot"
+        android:layout_marginEnd="4dp"
+        android:background="#3FBDDE" />
+
+    <View
+        android:id="@+id/item_time_line_cyan_end_date_dot"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/circle_cyan" />
+
+</RelativeLayout>

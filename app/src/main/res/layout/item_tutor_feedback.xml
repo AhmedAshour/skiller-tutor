@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_tutor_feedback"
+    style="@style/CardStyle"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_review_civ_reviewer_profile_pic"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/profile_pic" />
+
+        <TextView
+            android:id="@+id/item_review_tv_reviewer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@+id/item_review_civ_reviewer_profile_pic"
+            android:layout_toStartOf="@id/item_review_tv_date"
+            android:paddingEnd="@dimen/margin_small"
+            android:paddingStart="@dimen/margin_small"
+            android:text="@string/no_string"
+            android:textColor="@color/color_black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_review_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:text="@string/no_string"
+            android:textColor="#3FBDDE" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_review_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/no_string"
+        android:textColor="@color/color_black_faded" />
+
+</LinearLayout>

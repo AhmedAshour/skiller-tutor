@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_base"
+    android:orientation="vertical"
+    tools:context=".views.more.MoreFragment">
+
+    <TextView
+        style="@style/HeaderStyle"
+        android:text="more" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e6e6e6"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_extra_large">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_more_profile_pic"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:elevation="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_pic" />
+
+        <TextView
+            android:id="@+id/tv_more_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_extra_small"
+            android:text="@string/no_string"
+            android:textColor="@color/text_header"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_extra_small">
+
+            <TextView
+                android:id="@+id/tv_more_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_string"
+                android:textColor="@color/text_body"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=", "
+                android:textColor="@color/text_body"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_more_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_string"
+                android:textColor="@color/text_body"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_course_title_view_tv_course_name"
+            android:layout_marginTop="18dp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_more_hourly_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_string"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_red"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tv_more_hourly_price_currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@+id/tv_more_hourly_price"
+                    android:text="LE"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_red"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_more_experience_hours"
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/no_string"
+                android:textAllCaps="true"
+                android:textColor="@color/color_red"
+                android:textSize="22sp" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_more_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/margin_extra_small"
+                    android:drawableStart="@drawable/ic_small_yellow_star"
+                    android:text="@string/no_string"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_red"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_course_title_view_ll">
+
+            <TextView
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Hourly Rate"
+                android:textColor="@color/text_body"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Experience Hours"
+                android:textColor="@color/text_body"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Rating"
+                android:textColor="@color/text_body"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/margin_large"
+        android:paddingStart="@dimen/margin_large">
+
+        <Button
+            android:id="@+id/btn_more_personal_info"
+            style="@style/FragmentMoreButtonsStyle"
+            android:drawableStart="@drawable/ic_medium_black_edit"
+            android:text="Personal Info" />
+
+        <Button
+            android:id="@+id/btn_more_education"
+            style="@style/FragmentMoreButtonsStyle"
+            android:drawableStart="@drawable/ic_medium_black_education"
+            android:text="Education" />
+
+        <Button
+            android:id="@+id/btn_more_experiences"
+            style="@style/FragmentMoreButtonsStyle"
+            android:drawableStart="@drawable/ic_medium_black_experiences"
+            android:text="Experiences" />
+
+        <Button
+            android:id="@+id/btn_more_reviews"
+            style="@style/FragmentMoreButtonsStyle"
+            android:drawableStart="@drawable/ic_medium_black_review"
+            android:text="Show Reviews" />
+
+        <Button
+            android:id="@+id/fragment_more_btn_privacy_settings"
+            style="@style/FragmentMoreButtonsStyle"
+            android:drawableStart="@drawable/ic_medium_black_privacy"
+            android:text="Privacy Settings" />
+
+        <Button
+            android:id="@+id/fragment_more_btn_sign_out"
+            style="@style/FragmentMoreButtonsStyle"
+            android:drawableStart="@drawable/ic_medium_red_sign_out"
+            android:text="Sign out"
+            android:textColor="@color/color_red" />
+
+    </LinearLayout>
+
+</LinearLayout>

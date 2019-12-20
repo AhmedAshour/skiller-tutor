@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="item_lesson_request_content_view" type="id" />
+    <item name="item_lesson_request_title_view" type="id" />
+
+    <item name="item_lesson_content_view_cv_info_lesson" type="id" />
+    <item name="item_lesson_content_view_cv_info_payment" type="id" />
+    <item name="item_lesson_content_view_cv_info_student" type="id" />
+    <item name="item_lesson_content_view_cv_notes" type="id" />
+    <item name="item_lesson_content_view_cv_review" type="id" />
+    <item name="item_lesson_content_view_acceptance" type="id" />
+
+    <item name="item_lesson_title_view_cv" type="id" />
+</resources>

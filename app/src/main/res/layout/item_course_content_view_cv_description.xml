@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_course_content_view_cv_description"
+    style="@style/FoldingCellContentViewCardStyle">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_extra_small"
+        android:text="description"
+        android:textAllCaps="true"
+        android:textColor="@color/text_header"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_course_content_view_cv_description_tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_extra_small"
+        android:text="No description added"
+        android:textSize="@dimen/text_size_small" />
+
+</LinearLayout>

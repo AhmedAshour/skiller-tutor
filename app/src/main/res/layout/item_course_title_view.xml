@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_course_title_view"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_corners_small_white">
+
+    <RelativeLayout
+        android:id="@+id/item_course_title_view_cv_rl"
+        android:layout_width="@dimen/item_title_view_btn_expand_width"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/item_course_title_view_cv_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="-8dp"
+        android:background="@drawable/rounded_corners_title_view">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_navigation_white_menu_list" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_course_title_view_cv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_toEndOf="@+id/item_course_title_view_cv_rl">
+
+        <TextView
+            android:id="@+id/item_course_title_view_tv_course_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/item_course_title_view_rv_price"
+            android:paddingEnd="@dimen/margin_small"
+            android:text="Course Name"
+            android:textColor="@color/text_header"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="" />
+
+        <RelativeLayout
+            android:id="@+id/item_course_title_view_rv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="@dimen/margin_extra_small"
+            android:layout_marginEnd="@dimen/margin_small">
+
+            <TextView
+                android:id="@+id/item_course_title_view_tv_course_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/margin_extra_small"
+                android:text="100"
+                android:textColor="@color/color_cyan"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/item_course_title_view_tv_course_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_toEndOf="@+id/item_course_title_view_tv_course_price"
+                android:text="LE"
+                android:textAllCaps="true"
+                android:textColor="@color/color_cyan"
+                android:textSize="@dimen/text_size_large" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/item_course_title_view_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_course_title_view_tv_course_name"
+            android:layout_marginTop="@dimen/margin_small">
+
+            <TextView
+                android:id="@+id/item_course_title_view_tv_course_num_sessions"
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textAllCaps="true"
+                android:textColor="@color/color_red"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/item_course_title_view_tv_course_num_hours"
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textAllCaps="true"
+                android:textColor="@color/color_red"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/item_course_title_view_tv_course_num_hours_per_session"
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textAllCaps="true"
+                android:textColor="@color/color_red"
+                android:textSize="@dimen/text_size_large" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_course_ll_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_course_title_view_ll">
+
+            <TextView
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sessions"
+                android:textColor="@color/text_body"
+                android:textSize="@dimen/text_size_extra_small" />
+
+            <TextView
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Hours"
+                android:textColor="@color/text_body"
+                android:textSize="@dimen/text_size_extra_small" />
+
+            <TextView
+                android:layout_width="@dimen/no_size"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Hour/Session"
+                android:textColor="@color/text_body"
+                android:textSize="@dimen/text_size_extra_small" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

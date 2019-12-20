@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_course_content_view"
+    style="@style/FoldingCellContentViewStyle"
+    android:orientation="vertical">
+
+    <include
+        style="@style/FoldingCellContentViewStyle"
+        layout="@layout/item_course_content_view_cv_info" />
+
+    <include
+        style="@style/FoldingCellContentViewStyle"
+        layout="@layout/item_course_content_view_cv_description" />
+
+    <include
+        style="@style/FoldingCellContentViewStyle"
+        layout="@layout/item_cv_notes" />
+
+</LinearLayout>

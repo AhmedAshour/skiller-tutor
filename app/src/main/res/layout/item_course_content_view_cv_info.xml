@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_course_content_view_cv_info"
+    style="@style/FoldingCellContentViewCardStyle">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_extra_small"
+        android:layout_weight="1"
+        android:text="course info"
+        android:textAllCaps="true"
+        android:textColor="@color/text_header"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_course_content_view_cv_info_tv_skill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_extra_small"
+        android:layout_weight="1"
+        android:drawablePadding="@dimen/margin_small"
+        android:drawableStart="@drawable/ic_small_black_skill"
+        android:text="Skill"
+        android:textSize="@dimen/text_size_small" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_extra_small"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/item_course_content_view_cv_info_tv_time_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_extra_small"
+            android:drawablePadding="@dimen/margin_small"
+            android:drawableStart="@drawable/ic_small_black_clock"
+            android:text="Start Time"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/item_course_content_view_cv_info_tv_time_hyphen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_extra_small"
+            android:layout_marginStart="@dimen/margin_extra_small"
+            android:text="-"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/item_course_content_view_cv_info_tv_time_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Time"
+            android:textSize="@dimen/text_size_small" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_extra_small"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/item_course_content_view_cv_info_tv_date_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_small"
+            android:drawableStart="@drawable/ic_small_black_calendar"
+            android:text="End Date"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/item_course_content_view_cv_info_tv_date_hyphen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_extra_small"
+            android:layout_marginStart="@dimen/margin_extra_small"
+            android:text="-"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/item_course_content_view_cv_info_tv_date_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Date"
+            android:textSize="@dimen/text_size_small" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_course_content_view_cv_info_tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="@dimen/margin_small"
+        android:drawableStart="@drawable/ic_small_black_location"
+        android:text="Location"
+        android:textSize="@dimen/text_size_small" />
+
+</LinearLayout>
