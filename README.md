@@ -25,10 +25,11 @@ For the tutors so that they can:
 
 ## Screenshots
 
-- **Login Screen**, tutors can login using phone, Google or Facebook
+- **Login screen**, tutors can login using phone, Google or Facebook </br>
 ![Starter – 3](https://user-images.githubusercontent.com/7766704/71278436-49c98e80-2360-11ea-9f34-be8152996174.png)
 
-- **Lessons screen** where tutors can find their requests(coming from users), upcoming, and finished sessions.
+
+- **Lessons screen** where tutors can find their requests(coming from users), upcoming, and finished sessions</br>
 ![Lessons - Requests – 1](https://user-images.githubusercontent.com/7766704/71278694-f73ca200-2360-11ea-9039-a54b6b96a2ea.png)
 ![Lessons - Requests – 2](https://user-images.githubusercontent.com/7766704/71278695-f86dcf00-2360-11ea-81ba-e1b8cc36f5a8.png)
 ![Lessons - Upcoming – 1](https://user-images.githubusercontent.com/7766704/71278698-fa379280-2360-11ea-9e80-56aafe2bbb92.png)
@@ -36,13 +37,17 @@ For the tutors so that they can:
 ![Lessons - Finished – 2](https://user-images.githubusercontent.com/7766704/71278703-fc99ec80-2360-11ea-9c93-2d0578d69222.png)
 ![Lessons - Finished  – 2](https://user-images.githubusercontent.com/7766704/71278704-fdcb1980-2360-11ea-864b-970d1da2ae9a.png)
 
-- **Messages screen**
+
+- **Messages screen**</br>
 ![Messages – 1](https://user-images.githubusercontent.com/7766704/71278748-1a675180-2361-11ea-97b2-ad6e881d3346.png)
 
-- **Courses screen**, where tutors can create their courses in which users can book
+
+- **Courses screen**, where tutors can create their courses in which users can book</br>
 ![Courses – 1](https://user-images.githubusercontent.com/7766704/71278799-34a12f80-2361-11ea-80a5-5cb6d1dcb05b.png)
 ![Courses – 2](https://user-images.githubusercontent.com/7766704/71278803-3834b680-2361-11ea-8309-1d62b92afa6b.png)
-- **More screen** contains tutor profile, reviews, and other settings
+
+
+- **More screen** contains tutor profile, reviews, and other settings</br>
 ![More – 1](https://user-images.githubusercontent.com/7766704/71279196-6adeaf00-2361-11ea-96c5-995777c5c2c3.png)
 ![Reviews – 1](https://user-images.githubusercontent.com/7766704/71279210-6b774580-2361-11ea-8713-5af19a592270.png)
 ![Edit profile – 1](https://user-images.githubusercontent.com/7766704/71279219-6c0fdc00-2361-11ea-903b-3c70dfd9b881.png)
